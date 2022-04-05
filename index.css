@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: max(500px, 473.0625px);
+    top: 0;
+    object-fit: cover;
+    content: url('https://cdn.discordapp.com/attachments/485357955341090825/960920185706008626/unknown.png');
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.backgroundlayer {
+    position: absolute;
+    width: 100%;
+    height: max(500px, 473.0625px);
+    top: 0px;
+    object-fit: cover;
+    object-position: center top;
+
+    opacity: 0.85;
+    backdrop-filter: blur(2px);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.titles {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    padding: 8px;
+    align-items: center;
+    position: absolute;
+    left: 60px;
+    top: 80px;
+}
+
+.undertitle {
+    position: absolute;
+
+    font-size: 22px;
+    top: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    max-width:740px;
+}
+
+
+.discordbutton {
+    position: absolute;
+    background: transparent;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    left: 90px;
+    top: 230px;
+    text-decoration: none;
+}
+
+
+#produckt {
+    position: relative;
+    height: 60vh;
+    top: 55vh;
+}
+
+.topnav {
+    background: transparent;
+    overflow: hidden;
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+
+  #hiremenow {
+      color: rgb(0, 110, 255);
+  }
+
+  .topnav a {
+    display: flex;
+    color: #000000;
+    padding: 1.5em 0.5em;
+    padding-left: 0em;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 1em;
+    float: left;
+    right: 50%;
+  }
+
+ 
+.topnav p {
+    position: absolute;
+    left: 1%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.topnav a:hover {
+    color: black;
+    font-weight: 600;
+  }
+  
+
+  .topnav a.active {
+    text-decoration: underline 5px;
+    text-decoration-color: rgb(0, 110, 255);
+    font-weight: bold;
+  }
+  
+
+  .topnav .icon {
+    display: none;
+  }
+
+
+#produckt h1 {
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 20px;
+
+}
+
+
+
+#produckt h2 {
+    font-size: 20px;
+    color: rgb(86, 86, 86);
+    line-height: 5px;
+    line-height: 35px;
+
+}
+.productsundertitle {
+    text-align: center;
+}
+
+.productstitle {
+    text-align: center;
+}
+
+
+.card {
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    height: 290px;
+    overflow: hidden;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: -200px;
+
+}
+
+
+.card img {
+    object-fit: scale-down;
+    width: 100%;
+}
+
+#card1 {
+    position:absolute;
+    left: 50%;
+}
+
+#card2 {
+    position:absolute;
+    left: 25%;
+}
+
+#card3 {
+    position:absolute;
+    left: 75%;
+}
+
+.cardcontaioner {
+    margin-left: 50%;
+}
+
+.collectionname {
+    position: absolute;
+    left: 222px;
+    top: 55px;
+    font-size: 20px;
+    text-decoration: underline 3px;
+    font-weight: 800;
+}
+
+.cptrico {
+    background: transparent;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.footer {
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    bottom: -130px;
+}
+
+
+
+
+
+
