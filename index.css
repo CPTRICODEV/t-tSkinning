@@ -77,7 +77,7 @@ html {
 
 #produckt {
     position: relative;
-    height: 60vh;
+    height: 120vh;
     top: 55vh;
 }
 
@@ -161,15 +161,13 @@ html {
 
 
 .card {
-    position: absolute;
+    position: relative;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
     height: 290px;
     overflow: hidden;
     width: 400px;
     margin-top: 40px;
-    margin-left: -200px;
-
 }
 
 
@@ -178,29 +176,55 @@ html {
     width: 100%;
 }
 
-#card1 {
-    position:absolute;
-    left: 50%;
+.card a {
+    background: transparent;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top: 255px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 17px;
 }
 
-#card2 {
-    position:absolute;
-    left: 25%;
-}
 
-#card3 {
-    position:absolute;
-    left: 75%;
-}
 
 .cardcontaioner {
+    margin-top: 7%;
+    position: absolute;
     margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
 }
+
+.cardcontaioner2 {
+    margin-top: 25%;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+
+.cardcontaioner3 {
+    margin-top: 40%;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+
 
 .collectionname {
     position: absolute;
-    left: 222px;
-    top: 55px;
+    left: 0px;
+    top: -20px;
     font-size: 20px;
     text-decoration: underline 3px;
     font-weight: 800;
@@ -218,7 +242,7 @@ html {
     text-align: center;
     margin-left: 50%;
     transform: translateX(-50%);
-    bottom: -130px;
+    bottom: -950px;
 }
 
 
