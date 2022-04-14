@@ -246,7 +246,17 @@ html {
 }
 
 
-
+@media only screen and (max-width: 1920px) {
+    .cardcontaioner {
+        margin-top: 2%;
+        position: absolute;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: row;
+        gap: 4%;
+    }
+  }
 
 
 
